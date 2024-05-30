@@ -6,7 +6,8 @@ export default function Header() {
           <div className="header__logo">
             <img
               className="header__logo__img"
-              src="/img/vector.png"
+              // src="/img/vector.png"
+              src="./img/vector.png"
               alt="logo"
             />
           </div>
@@ -28,10 +29,10 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div class="menu-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+          <div className="menu-toggle">
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
           </div>
         </div>
       </div>
