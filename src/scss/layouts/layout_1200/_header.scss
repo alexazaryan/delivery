@@ -1,0 +1,15 @@
+.header__wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  &_bottom {
+    padding-bottom: 1.2rem;
+  }
+}
+
+// delete
+body {
+  background: $red;
+}

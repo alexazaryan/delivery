@@ -1,0 +1,27 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  // flex-basis: calc(50%);
+}
+
+.header__menu {
+  display: flex;
+  margin-left: auto;
+
+  &__ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.header__mobile {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.header__city {
+  font-size: 1.2rem;
+  margin-top: auto;
+}

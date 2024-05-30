@@ -1,0 +1,41 @@
+@if variable-exists(googleFont) {
+  @import url($googleFont);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $baseFontSize;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $baseFontFamily;
+  background: #e5e7eb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.trait {
+  border: 1px solid $gray;
+  margin: 0 1rem;
+}
+
+@media (min-width: 360px) {
+  body {
+    background: $green;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+}
