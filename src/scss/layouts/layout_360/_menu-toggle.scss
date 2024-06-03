@@ -1,0 +1,18 @@
+.line {
+  width: 24px;
+  height: 4px;
+  background-color: $purple;
+  margin: 4px 0;
+  border-radius: 100px;
+}
+
+.menu-toggle {
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.close {
+  font-size: 2.5rem;
+  color: $purple;
+  text-decoration: none;
+}

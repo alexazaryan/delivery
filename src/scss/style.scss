@@ -6,6 +6,9 @@
 
 @import "layouts/layout_000/index";
 
+@media (min-width: 360px) {
+  @import "layouts/layout_360/index";
+}
 @media (min-width: 575px) {
   @import "layouts/layout_575/index";
 }

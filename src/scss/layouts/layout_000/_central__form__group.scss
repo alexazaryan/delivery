@@ -1,0 +1,20 @@
+.central__form__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form__name_wrap {
+  min-width: 100%;
+}
+
+.form__name {
+  min-width: 100%;
+}
+
+.form {
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 12px;
+  width: calc(50% - 5px); /* Задаем ширину с учетом отступа */
+}

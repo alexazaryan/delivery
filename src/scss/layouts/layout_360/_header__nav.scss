@@ -1,0 +1,22 @@
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.75rem 0;
+  margin: 0.75rem 0;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+
+  &__ul {
+    display: flex;
+    list-style: none;
+  }
+}
+
+.nav-item {
+  padding-right: 24px;
+}
+
+.nav-item_calc {
+  color: $purple;
+}

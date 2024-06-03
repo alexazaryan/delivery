@@ -25,17 +25,11 @@ body {
   margin: 0 auto;
 }
 
+.central {
+  flex: 1;
+}
+
 .trait {
   border: 1px solid $gray;
   margin: 0 1rem;
-}
-
-@media (min-width: 360px) {
-  body {
-    background: $green;
-  }
-
-  .container {
-    padding: 0 1rem;
-  }
 }
