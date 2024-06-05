@@ -42,7 +42,7 @@ export default function Header() {
       </div>
 
       {isVisible && (
-        <div>
+        <div className="header__content">
           <div className="header__nav">
             <ul className="header__nav__ul">
               <li className="nav-item nav-item_calc">Калькулятор</li>
@@ -67,7 +67,6 @@ export default function Header() {
             <li className="header__city">Звонки по Украине бесплатны</li>
           </ul> */}
           </div>
-          {/*  */}
         </div>
       )}
       {/*  */}

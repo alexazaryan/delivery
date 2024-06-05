@@ -1,9 +1,18 @@
 .header {
   background: $white;
   padding-top: 0.4rem;
+  // border: 2px solid red;
 
   &__wrap {
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    // border: 2px solid red;
+  }
+
+  &__content {
+    max-width: 1000px;
+    margin: auto;
   }
 }
