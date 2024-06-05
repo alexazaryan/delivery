@@ -1,0 +1,19 @@
+.header__price {
+  display: flex;
+}
+
+.header__list,
+.header__connection {
+  text-align: end;
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+
+.header__mobile {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.header__city {
+  font-size: 0.9rem;
+}
