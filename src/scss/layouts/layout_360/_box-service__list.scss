@@ -1,0 +1,30 @@
+.box-service__group {
+  display: flex;
+  align-items: center;
+}
+
+.box-service__img {
+  min-width: 110px;
+  width: 110px;
+  height: 110px;
+}
+
+.img__picture {
+  min-width: 100%;
+  height: 100%;
+}
+
+.box-service__list {
+  padding: 25px;
+  list-style-type: none;
+}
+
+.box-service__group__title {
+  margin-bottom: 10px;
+}
+
+.box-service__list-a {
+  padding: 25px;
+  list-style-type: none;
+  border: 2px solid red;
+}

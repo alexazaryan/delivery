@@ -26,7 +26,7 @@ export default function Header() {
             <ul className="header__list">
               <li>Доставляем товары из заграницы в Украину</li>
               <li>Стоимость от 550 гривен за заказ</li>
-              <li>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</li>
+              <li>1 $ = 93 ₴ | 1 € = 99 ₴ | 1 ¥ = 13 ₴</li>
             </ul>
 
             <div className="trait trait_hidden"></div>
@@ -64,7 +64,7 @@ export default function Header() {
           <ul className="header__nav__ul">
             <li className="nav-item nav-item_calc">Калькулятор</li>
             <li className="nav-item">О нас</li>
-            <li className="nav-item">Гарантии</li>
+            <li className="nav-item nav-item_guarantee">Гарантии</li>
             <li className="nav-item">Отзывы</li>
           </ul>
         </div>
