@@ -2,9 +2,8 @@ export default function BoxService() {
   return (
     <div className="box-service">
       {/* 1 */}
+      <h3 className="box-service__title">Наши преимущества</h3>
       <div className="box-service__wrap">
-        <h3 className="box-service__title">Наши преимущества</h3>
-
         <div className="box-service__group">
           <div className="box-service__img">
             <img className="img__picture" src="./img/board.png" alt="picture" />
@@ -15,8 +14,8 @@ export default function BoxService() {
               <h4 className="box-service__group__title">Растоможка груза</h4>
             </li>
             <li>
-              Мы берём на себя все формальности и бумажную волокиту, связанную
-              с растаможкой груза
+              Мы берём на себя все формальности и бумажную волокиту, связанную с
+              растаможкой груза
             </li>
           </ul>
         </div>

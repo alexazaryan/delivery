@@ -1,6 +1,8 @@
 .box-service__group {
   display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 10px 0;
 }
 
 .box-service__img {
@@ -26,5 +28,4 @@
 .box-service__list-a {
   padding: 25px;
   list-style-type: none;
-  border: 2px solid red;
 }

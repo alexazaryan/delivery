@@ -4,5 +4,12 @@
 }
 
 .box-service__title {
+  flex: 0 0 100%;
   text-align: center;
+}
+
+.box-service {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
 }
