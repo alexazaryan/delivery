@@ -1,0 +1,24 @@
+.diplomas__img {
+  width: 100%;
+  max-width: 365px;
+}
+
+.diplomas__img__picture {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.diplomas__box {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.diplomas__box__wrap {
+  text-align: center;
+  margin-bottom: 24px;
+}

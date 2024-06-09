@@ -1,0 +1,58 @@
+.slider__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 28px;
+}
+
+.slider__text {
+  max-width: 480px;
+  margin: 0 32px;
+}
+
+.slider__text,
+p {
+  font-size: 1.2rem;
+}
+
+.slider__wrap {
+  display: flex;
+
+  justify-content: space-between;
+  height: 150px;
+  width: 800px; /* Устанавливаем фиксированную ширину */
+  max-width: 100%; /* Максимальная ширина 100% для адаптивности */
+  margin: 0 auto; /* Центрируем блок */
+  position: relative; /* Для позиционирования дочерних элементов */
+  overflow: hidden;
+}
+
+.slider__text {
+  flex-grow: 1;
+  margin: 0 20px;
+  height: 150px;
+  position: relative;
+}
+
+.slider__text p {
+  background-color: $bgReviews;
+  position: absolute;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  margin: 0;
+}
+
+.slider__text p.visible {
+  opacity: 1;
+}
+
+// пересмотреть
+
+.slider__img {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.slider__img__vector {
+  width: 100%;
+}
