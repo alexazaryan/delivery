@@ -6,17 +6,18 @@
 
 .slider__text {
   max-width: 480px;
-  margin: 0 32px;
+  margin: 0 20px;
+  flex-grow: 1;
+  position: relative;
 }
 
 .slider__text,
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .slider__wrap {
   display: flex;
-
   justify-content: space-between;
   height: 150px;
   width: 800px; /* Устанавливаем фиксированную ширину */
@@ -26,15 +27,9 @@ p {
   overflow: hidden;
 }
 
-.slider__text {
-  flex-grow: 1;
-  margin: 0 20px;
-  height: 150px;
-  position: relative;
-}
-
 .slider__text p {
-  background-color: $bgReviews;
+  color: red;
+  height: 350px;
   position: absolute;
   transition: opacity 0.5s ease;
   opacity: 0;
@@ -45,14 +40,13 @@ p {
   opacity: 1;
 }
 
-// пересмотреть
-
 .slider__img {
   width: 50px;
   height: 50px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .slider__img__vector {
+  max-width: 100%;
   width: 100%;
 }

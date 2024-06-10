@@ -1,0 +1,41 @@
+.form-question {
+  margin: 0 auto;
+  max-width: 768px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-question__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-question__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-question__group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-question__input,
+.form-question__textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-question__textarea {
+  height: 100px;
+  resize: none;
+}

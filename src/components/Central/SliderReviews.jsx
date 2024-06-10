@@ -16,7 +16,6 @@ export default function SliderReviews() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  //   delete
   const [isWideScreen, setIsWideScreen] = useState(window.innerWidth >= 768);
 
   useEffect(() => {
@@ -27,7 +26,6 @@ export default function SliderReviews() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  // delete
 
   const handleNext = () => {
     setCurrentIndex((currentIndex + 1) % texts.length);
@@ -37,14 +35,12 @@ export default function SliderReviews() {
     setCurrentIndex((currentIndex - 1 + texts.length) % texts.length);
   };
 
-  //
   function truncateText(text, maxLength) {
     if (text.length <= maxLength) {
       return text;
     }
     return text.slice(0, maxLength) + "...";
   }
-  //
 
   return (
     <div className="slider-reviews">
@@ -75,27 +71,6 @@ export default function SliderReviews() {
           />
         </div>
       </div>
-      {/*  */}
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-        pariatur commodi consequuntur dolorum ipsa, perferendis cum quia aliquam
-        rem saepe at sunt? Rem minus ducimus odio aspernatur veritatis
-        praesentium numquam. Consequatur ut autem rerum officiis iusto aliquid
-        corporis aperiam. Nisi quaerat quae quisquam, repellat neque ut nulla.
-        Excepturi dicta laboriosam molestias doloremque vero voluptatibus sequi
-        minus, vel dolorum. Natus, vero. Itaque nemo, illo repellendus odit
-        ipsam earum, perspiciatis voluptatum dolores accusantium illum iste.
-        Debitis commodi ipsa laboriosam. Quasi molestiae nobis, aut temporibus,
-        quidem voluptate corrupti esse optio laborum debitis ducimus. Provident
-        mollitia suscipit tempore dolorum iste omnis neque eius, pariatur
-        commodi ipsa voluptates fuga vitae aut quae velit itaque consectetur
-        adipisci fugiat aliquam, rem doloremque laudantium? Tenetur optio at
-        unde. Fuga, molestiae quam reprehenderit iste dolore expedita
-        consequatur rem dolorem optio iusto. Magnam cum alias ea quas. Sed quo
-        rerum tenetur. Repellat corporis laboriosam cupiditate! Ad recusandae
-        aut labore perferendis!
-      </p>
-      {/*  */}
     </div>
   );
 }

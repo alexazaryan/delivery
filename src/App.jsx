@@ -4,7 +4,7 @@ import Central from "./components/Central/Central";
 import BoxService from "./components/Central/BoxService";
 import Diplomas from "./components/Central/Diplomas";
 import SliderReviews from "./components/Central/SliderReviews";
-
+import FormQuestion from "./components/Central/FormQuestion";
 // style
 import "./App.css";
 
@@ -17,6 +17,7 @@ function App() {
         <BoxService />
         <Diplomas />
         <SliderReviews />
+        <FormQuestion />
       </div>
       <Footer />
     </>
