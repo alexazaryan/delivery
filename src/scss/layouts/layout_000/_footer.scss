@@ -1,10 +1,9 @@
 .footer {
-  background: $footer;
-}
-
-.footer h3 {
-  padding: 50px;
-  height: 70px;
-  text-align: center;
-  color: white;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  color: $white;
 }
