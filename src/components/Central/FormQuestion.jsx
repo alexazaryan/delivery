@@ -1,12 +1,9 @@
-//
-//
-//
-
 export default function FormQuestion() {
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Здесь можно добавить логику для обработки данных формы
-    // console.log("Форма отправлена");
+
+    event.target.reset();
+
     alert("Форма отправлена");
   };
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import Calculator from "../Calculator/Calculator";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -6,6 +7,18 @@ export default function Header() {
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
+
+  // Calc start
+  // const [calculatorOpen, setCalculatorOpen] = useState(false);
+
+  // const openCalculator = () => {
+  //   setCalculatorOpen(true);
+  // };
+
+  // const closeCalculator = () => {
+  //   setCalculatorOpen(false);
+  // };
+  // Calc end
 
   return (
     <header className="header">
@@ -62,7 +75,11 @@ export default function Header() {
       <div className="header__blok">
         <div className="header__blok__nav">
           <ul className="header__nav__ul">
-            <li className="nav-item nav-item_calc">Калькулятор</li>
+            <li className="nav-item nav-item_calc">
+              Калькулятор
+              {/* <li className="nav-item nav-item_calc" onClick={openCalculator}> */}
+              {/* {calculatorOpen && <Calculator onClose={closeCalculator} />} */}
+            </li>
             <li className="nav-item">О нас</li>
             <li className="nav-item nav-item_guarantee">Гарантии</li>
             <li className="nav-item">Отзывы</li>

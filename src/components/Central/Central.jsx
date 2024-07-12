@@ -1,4 +1,10 @@
 export default function Central() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    event.target.reset();
+    alert("Форма отправлена!");
+  };
+
   return (
     <div className="central">
       <div className="central__wrap">
@@ -34,7 +40,7 @@ export default function Central() {
         </div>
 
         {/*  form start*/}
-        <div className="central__form__group">
+        <form className="central__form__group" onSubmit={handleSubmit}>
           <div className="form__name_wrap">
             <input type="text" className="form__name form" placeholder="Имя" />
           </div>
@@ -46,9 +52,11 @@ export default function Central() {
           <input type="text" className="form" placeholder="Город покупки" />
           <input type="text" className="form" placeholder="Область доставки" />
           <input type="text" className="form" placeholder="Город доставки" />
-          <div className="btn btn_form">Заказать расчёт</div>
-        </div>
-        {/*  form end*/}
+          <button type="submit" className="btn btn_form">
+            Заказать расчёт
+          </button>
+        </form>
+        {/* <form/> */}
       </div>
     </div>
   );
